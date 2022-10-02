@@ -17,14 +17,14 @@ class plt_one_addpt_onclick:
         neg = y == 0
 
         fig,ax = plt.subplots(1,1,figsize=(8,4))
-        fig.canvas.toolbar_visible = False
-        fig.canvas.header_visible = False
-        fig.canvas.footer_visible = False
+        fig.canvas.toolbar_visible = True
+        fig.canvas.header_visible = True
+        fig.canvas.footer_visible = True
 
         plt.subplots_adjust(bottom=0.25)
         ax.scatter(x[pos], y[pos], marker='x', s=80, c = 'red', label="malignant")
         ax.scatter(x[neg], y[neg], marker='o', s=100, label="benign", facecolors='none', edgecolors=dlblue,lw=3)
-        ax.set_ylim(-0.05,1.1)
+        ax. (-0.05,1.1)
         xlim = ax.get_xlim()
         ax.set_xlim(xlim[0],xlim[1]*2)
         ax.set_ylabel('y')
