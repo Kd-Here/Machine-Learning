@@ -54,7 +54,7 @@ def plt_logistic_squared_error(X,y):
 
 def plt_logistic_cost(X,y):
     """ plots logistic cost """
-    wx, by = np.meshgrid(np.linspace(-6,12,50),
+    wx, by = np.meshgrid(np.linspace(-20,12,50),
                          np.linspace(0, -20, 40))
     points = np.c_[wx.ravel(), by.ravel()]
     cost = np.zeros(points.shape[0],dtype=np.longdouble)
