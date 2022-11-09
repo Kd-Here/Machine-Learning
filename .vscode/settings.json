@@ -1,10 +1,6 @@
 {
     "jupyter.kernels.filter": [
         {
-            "path": "d:\\Anaconda\\python.exe",
-            "type": "pythonEnvironment"
-        },
-        {
             "path": "c:\\Users\\Kajal\\AppData\\Roaming\\jupyter\\kernels\\kdenv\\kernel.json",
             "type": "jupyterKernelspec"
         },
