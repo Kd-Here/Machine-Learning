@@ -28,9 +28,10 @@ def map_feature(X1, X2):
 def plot_data(X, y, pos_label="y=1", neg_label="y=0"):
     positive = y == 1
     negative = y == 0
-    
-    # Plot examples
-    plt.plot(X[positive, 0], X[positive, 1], 'k+', label=pos_label)
+
+    #This will only print True value means where y = 1
+            # This is x-axis  #this is y-axis
+    plt.plot(X[positive, 0], X[positive, 1], '*', label=pos_label)
     plt.plot(X[negative, 0], X[negative, 1], 'yo', label=neg_label)
     
     
