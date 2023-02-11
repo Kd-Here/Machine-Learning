@@ -33,8 +33,8 @@ def test_c2(target):
     def linear_times3(a):
         return a * 3
     
-    x_tst = np.array([1., 2., 3., 4.])  # (1 examples, 3 features)
-    W_tst = np.array([[1., 2.], [1., 2.], [1., 2.], [1., 2.]]) # (3 input features, 2 output features)
+    x_tst = np.array([1., 2., 3., 4.])  # (1 examples, 4 features)
+    W_tst = np.array([[1., 2.], [1., 2.], [1., 2.], [1., 2.]]) # (4 input features, 2 output features)
     b_tst = np.array([0., 0.])  # (2 features)
     
     A_tst = target(x_tst, W_tst, b_tst, linear)
